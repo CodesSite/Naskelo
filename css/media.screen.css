@@ -1,0 +1,88 @@
+/*MEDIA SCREEN*/
+@media (min-width: 481px) and (max-width: 1300px){
+	#img-block{ height: 371px; background-image: url(../img/768px/img-top-tablet.jpg); background-repeat: no-repeat; }
+
+	#synergy{ font-size: 100px; -webkit-text-stroke-width: 3px;}
+
+	#parallax{ background-image: url(../img/768px/img-parallax-tablet.jpg)}
+
+	#mission{ height: 650px; background-image: url(../img/768px/mission-bg-tablet.jpg)}
+}
+
+@media screen and (min-width: 480px){
+	.sm-service{margin-top: 150px;}
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+	#synergy{font-size: 53px; transform: rotate(-90deg); -webkit-text-stroke-width: 2px; margin-right: 120px;}
+
+	#safety{top: -7%; font-size: 95px; font-weight: 900;}
+} 
+
+@media screen and (max-width: 480px) {
+	#synergy{font-size: 53px; transform: rotate(-90deg); -webkit-text-stroke-width: 2px; margin-right: 120px;}
+
+	#about-us{margin-bottom: 50px;}
+
+	#services-number{ text-align: center; }
+
+	.sm-service{margin-top: 150px;}
+
+	#safety{top: -12%; font-size: 95px; font-weight: 900;}
+
+	#passion{top: -100px; top: -6.8%;}
+
+	#parallax{ background-image: url(../img/480px/img-parallax-mobile.jpg)}
+
+	#mission{ background-image: url(../img/480px/mission-bg-mobile.jpg)}
+
+	#img-block{ height: 371px; background-image: url(../img/480px/img-top-mobile.jpg); background-repeat: no-repeat; }
+
+}
+
+@media screen and (max-width: 600px){
+	#Brands-text{transform: rotate(-90deg); margin-top: 90px;}	
+}
+
+@media screen and (min-width: 768px) {
+	#contact{padding-left: 80px;}
+}
+
+@media screen and (max-width: 767px){
+	#synergy{right: 20%; top: 40%; transform: rotate(-90deg);}
+
+ 	#reiner{font-size: 45.96px; top: 45%;}
+
+ 	#services-number{ text-align: center; }
+}
+
+@media screen (min-width: 480px) and (max-width: 768px) {
+	#safety{top: -9%;}
+
+	#contact{margin-top: 50px;}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	#reiner{
+		font-size: 81.96px;
+		top: 27.9%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+	#img-top{width: 724px; height: 370px;}
+
+	#stroke{font-size: 100px;}
+
+	#reiner{font-size: 46px; top: 47px;}
+
+	#about-us{margin-bottom: 50px;}
+
+	#bottom-service{margin-top: 150px;}
+	
+	#safety{top: -8.5%;}
+
+	#email{margin-top: 20px; margin-bottom: 10px;}
+
+	#contact{padding-left: 80px;}
+}
